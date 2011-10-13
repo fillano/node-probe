@@ -24,7 +24,6 @@ module.exports = {
         var tmp = [];
         for(var i in target) {
             (function(name, value) {
-                //tmp.push({"name":name,"value":value+''});
                 var str = '';
                 switch(typeof value) {
                     case 'function':
